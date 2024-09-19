@@ -18,11 +18,16 @@ body {
 #display {
     width: 100%;
     padding: 20px;
-    font-size: 3rem;
     text-align: left;
     border: none;
     background-color: black;
     color: white;
+}
+
+.current {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
 }
 
 #keys {
@@ -52,14 +57,14 @@ button:active {
     background-color: hsl(0, 0%, 50%);
 }
 
-.operator-btn {
+.operator, .clear {
     background-color: hsl(35, 100%, 50%);
 }
 
-.operator-btn:hover {
+.operator:hover {
     background-color: hsl(35, 100%, 60%);
 }
 
-.operator-btn:active {
+.operator:active {
     background-color: hsl(35, 100%, 75%);
 }
